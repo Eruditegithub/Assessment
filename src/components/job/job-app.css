@@ -1,0 +1,27 @@
+.job-app-container {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #1a1a1a;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.banner {
+  background-color: chartreuse;
+  padding: 50px;
+  text-align: center;
+}
+.banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.banner h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.banner p {
+  font-size: 1.25rem;
+  max-width: 600px;
+  margin: 0 auto;
+}

@@ -1,0 +1,96 @@
+.whats-next {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #00ff00;
+}
+h1 {
+  font-size: 50px;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 40px;
+}
+.trial-click {
+  background-color: #1a1a1a;
+  color: #e5e5e5;
+  padding: 12px 24px;
+  font-size: 15px;
+  border: 2px solid;
+  border-color: chartreuse;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+.trial-click:hover {
+  background-color: #333;
+}
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+}
+.templates {
+  min-width: 200px;
+  margin: 10px 20px;
+  text-align: left;
+  flex: 1;
+}
+.templates h3 {
+  font-size: 18px;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+.templates ul {
+  list-style: none;
+  padding: 0;
+}
+.templates ul li {
+  margin-bottom: 8px;
+  padding: 0;
+}
+.templates ul li:hover {
+  text-decoration: underline;
+}
+.templates .support {
+  max-width: 100%;
+  text-align: right;
+}
+.templates .support .icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 5px;
+}
+.templates .support p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.footer-section .support .icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.copyright-section {
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.copyright-section p {
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.6;
+}

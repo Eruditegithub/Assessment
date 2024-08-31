@@ -1,0 +1,156 @@
+.body {
+  background-color: #373737;
+  color: grey;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+  background-color: black;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+}
+.header .post {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+.header .nav {
+  display: flex;
+  gap: 16px;
+  margin-right: 20%;
+  padding-right: 20%;
+}
+.header .nav .list {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 10px;
+  color: #ffff;
+  float: left;
+}
+
+.header .buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.header .buttons .btn-signin {
+  background-color: transparent;
+  border: 1px solid chartreuse;
+  color: white;
+  border-radius: 10px;
+  padding: 8px 16px;
+  margin-left: 5px;
+}
+.header .buttons .btn-signup {
+  padding: 8px 16px;
+  background-color: chartreuse;
+  color: black;
+  border: 1px solid;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+  margin-left: 5px;
+}
+.win {
+  text-align: center;
+  padding: 20px 20px 10px 10px;
+  margin-top: 10px;
+}
+.win h1 {
+  font-size: 50px;
+  color: chartreuse;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.win p {
+  font-size: 15px;
+  color: darkgrey;
+  margin-bottom: 40px;
+}
+.win .email-form {
+  display: inline-block;
+  position: relative;
+}
+.win .email-form input[type="email"] {
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 2px solid;
+  color: darkgrey;
+  background-color: #1a1a1a;
+  font-size: 16px;
+  width: 400px;
+  height: 2px;
+}
+.win .email-form button {
+  position: sticky;
+  right: 0%;
+  top: 0%;
+  bottom: 10px;
+  height: 50%;
+  width: 30%;
+  padding: 0 20px;
+  background-color: chartreuse;
+  border: none;
+  border-radius: 10px;
+  color: #1a1a1a;
+  cursor: pointer;
+  font-size: 10px;
+  transition: background-color 0.3s;
+}
+.win .submit {
+  height: 40px;
+  width: 0 auto;
+}
+.features {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  text-align: right;
+}
+.feature-box {
+  background-color: #292929;
+  padding: 16px;
+  border-radius: 10px;
+  width: 20%;
+  text-align: center;
+  margin: 5px;
+  margin-bottom: 10px;
+  text-align: left;
+  gap: 10px;
+}
+.feature-box h3 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 15px;
+}
+.feature-box p {
+  font-size: 16px;
+  color: darkgrey;
+}
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .win h1 {
+    font-size: 36px;
+    word-break: keep-all;
+  }
+}

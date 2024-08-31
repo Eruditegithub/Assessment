@@ -1,0 +1,52 @@
+.service {
+  max-width: 1200px;
+  padding: 20px;
+  background-color: #000;
+}
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+p {
+  margin-bottom: 45px;
+  color: #292929;
+  font-size: 15px;
+  text-align: center;
+}
+.create-account {
+  background-color: #1a1a1a;
+  color: #e5e5e5;
+  padding: 12px 24px;
+  font-size: 15px;
+  border: 2px solid;
+  border-color: #1a3c1d;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+.create-account:hover {
+  background-color: #1a1a1a;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.card {
+  background-color: #292929;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
+  color: #ffffff;
+}
+.card p {
+  font-size: 15px;
+  color: darkgray;
+}
